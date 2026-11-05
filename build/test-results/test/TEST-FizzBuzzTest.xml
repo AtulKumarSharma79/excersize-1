@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-05T15:44:19" hostname="C11-HPWFPMHV9QT" time="0.03">
+<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-05T16:16:09.856Z" hostname="C11-HPWFPMHV9QT" time="0.049">
   <properties/>
-  <testcase name="returnsFizzBuzzSequenceUpTo15()" classname="FizzBuzzTest" time="0.03"/>
+  <testcase name="returnsFizzBuzzSequenceUpTo15()" classname="FizzBuzzTest" time="0.025"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
