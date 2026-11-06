@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>FizzBuzz.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">excersize-1</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">FizzBuzz.java</span></div><h1>FizzBuzz.java</h1><pre class="source lang-java linenums">import java.util.ArrayList;
+import java.util.List;
+
+<span class="fc" id="L4">public class FizzBuzz {</span>
+
+    public static List&lt;String&gt; fizzBuzz(int n) {
+<span class="fc" id="L7">        List&lt;String&gt; results = new ArrayList&lt;&gt;();</span>
+
+<span class="fc bfc" id="L9" title="All 2 branches covered.">        for (int i = 1; i &lt;= n; i++) {</span>
+<span class="fc bfc" id="L10" title="All 2 branches covered.">            if (i % 15 == 0) {</span>
+<span class="fc" id="L11">                results.add(&quot;FizzBuzz&quot;);</span>
+<span class="fc bfc" id="L12" title="All 2 branches covered.">            } else if (i % 3 == 0) {</span>
+<span class="fc" id="L13">                results.add(&quot;Fizz&quot;);</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">            } else if (i % 5 == 0) {</span>
+<span class="fc" id="L15">                results.add(&quot;Buzz&quot;);</span>
+            } else {
+<span class="fc" id="L17">                results.add(String.valueOf(i));</span>
+            }
+        }
+
+<span class="fc" id="L21">        return results;</span>
+    }
+
+    public static void main(String[] args) {
+<span class="fc" id="L25">        fizzBuzz(15).forEach(x -&gt; System.out.println(x));</span>
+<span class="fc" id="L26">    }</span>
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>
