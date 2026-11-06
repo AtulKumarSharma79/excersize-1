@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-11-06T13:35:13.284Z" hostname="DESKTOP-830TUSF" time="0.32">
+<testsuite name="FizzBuzzTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-11-06T13:40:53.886Z" hostname="DESKTOP-830TUSF" time="0.279">
   <properties/>
-  <testcase name="[1] 1, 1" classname="FizzBuzzTest" time="0.083"/>
-  <testcase name="[2] 2, 2" classname="FizzBuzzTest" time="0.003"/>
+  <testcase name="[1] 1, 1" classname="FizzBuzzTest" time="0.068"/>
+  <testcase name="[2] 2, 2" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[3] 7, 7" classname="FizzBuzzTest" time="0.003"/>
   <testcase name="[4] 14, 14" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[5] 98, 98" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[6] 3, Fizz" classname="FizzBuzzTest" time="0.002"/>
-  <testcase name="[7] 6, Fizz" classname="FizzBuzzTest" time="0.003"/>
+  <testcase name="[7] 6, Fizz" classname="FizzBuzzTest" time="0.001"/>
   <testcase name="[8] 9, Fizz" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[9] 5, Buzz" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[10] 10, Buzz" classname="FizzBuzzTest" time="0.002"/>
-  <testcase name="[11] 20, Buzz" classname="FizzBuzzTest" time="0.003"/>
+  <testcase name="[11] 20, Buzz" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[12] 15, FizzBuzz" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="[13] 30, FizzBuzz" classname="FizzBuzzTest" time="0.002"/>
-  <testcase name="[14] 45, FizzBuzz" classname="FizzBuzzTest" time="0.003"/>
+  <testcase name="[13] 30, FizzBuzz" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="[14] 45, FizzBuzz" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="mainPrintsFizzBuzzSequenceUpTo15OnePerLine()" classname="FizzBuzzTest" time="0.003"/>
   <testcase name="returnsEmptyListForZero()" classname="FizzBuzzTest" time="0.003"/>
-  <testcase name="smallerInputIsPrefixOfLargerInput()" classname="FizzBuzzTest" time="0.002"/>
-  <testcase name="endsWithFizzAtThree()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="smallerInputIsPrefixOfLargerInput()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="endsWithFizzAtThree()" classname="FizzBuzzTest" time="0.0"/>
   <testcase name="endsWithBuzzAtFive()" classname="FizzBuzzTest" time="0.001"/>
   <testcase name="classCanBeInstantiated()" classname="FizzBuzzTest" time="0.002"/>
-  <testcase name="returnsOneEntryPerNumber()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="returnsOneEntryPerNumber()" classname="FizzBuzzTest" time="0.003"/>
   <testcase name="returnsSingleNumberForOne()" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="returnsFizzBuzzSequenceUpTo15()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="returnsFizzBuzzSequenceUpTo15()" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[1] -1" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="[2] -15" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="[2] -15" classname="FizzBuzzTest" time="0.002"/>
   <testcase name="[3] -2147483648" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="sequenceRepeatsAfterFifteen()" classname="FizzBuzzTest" time="0.005"/>
+  <testcase name="sequenceRepeatsAfterFifteen()" classname="FizzBuzzTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
